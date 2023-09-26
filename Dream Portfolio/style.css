@@ -1,0 +1,162 @@
+.navbar{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.navbar a{
+    color: #fff !important;
+}
+.navbar-toggler-icon{
+    color:#fff !important;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-image: url("/image/hero\ \(1\).jpg");
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    /* object-fit: cover; */
+}
+.main-head{
+    text-decoration: underline;
+}
+.hero{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    
+}
+.hero img{
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-title{
+    font-size: 4rem;
+    color: #fff;
+}
+.profile{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(2,1fr); */
+    /* gap: 2.8rem; */
+}
+.profile li{
+    list-style: none;
+}
+.profile li span{
+    font-weight: bold;
+}
+.about{
+    padding: 2rem 2rem !important;
+}
+.about-container{
+    padding: 2rem;
+    box-shadow: rgba(67, 67, 73, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+    width: 100%;
+}
+.about-container h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about-heading{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.icons{
+    font-size: 2rem;
+    padding: 1.4rem;
+    border: 10px solid #426cea;
+    border-radius: 50%;
+}
+.service-box{
+    box-shadow: rgba(143, 143, 152, 0.2) 0px 7px 29px 0px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.service-box h1{
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.experience{
+    background-color: #0078ff !important;
+    padding: 6rem 0rem;
+    color: #20446c !important;
+}
+.experience-icon{
+    font-size: 2rem; 
+    padding: 0.5rem !important;
+    border: 10px solid #0e68ce;
+    border-radius: 50% !important;
+}
+.experience span{
+   display: block;
+   font-size: 2rem;
+   font-weight: bolder;
+}
+.Portfolio{
+    background-color: #fff;
+    padding: 3rem 3rem;
+    
+}
+.Portfolio img{
+    width: 100%;
+    overflow: hidden;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:  0.5rem;
+    padding-bottom: 0;
+    border-radius: 10px;
+    /* margin: 1rem; */
+}
+.card-name h1{
+font-size: 1.7rem;
+}
+.card-name span{
+    color: #0078ff;
+}
+.Portfolio-icons{
+    font-size: 3rem;
+    color: #0078ff;
+}
+.Portfolio-card{
+    margin: 1rem;
+}
+footer{
+    background-color: #0078ff;
+    padding: 2rem;
+    color: #fff;
+}
+footer p{
+    margin: 0 !important;
+}
+section{
+    padding-bottom: 4rem;
+}
+.hero img{
+    width: 10%;
+    color: #FFF !important;
+}
